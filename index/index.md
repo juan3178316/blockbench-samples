@@ -22,9 +22,9 @@ date: 2025-10-23
 + [PropertyOptions](interfaces/property-options.md)
 
 ## type Aliases
-+ [EventName](interfaces/event-name.md)
-+ [IconString](interfaces/icon-string.md)
-+ [Condition](interfaces/condition.md)
++ [EventName](type-aliases/event-name.md)
++ [IconString](type-aliases/icon-string.md)
++ [Condition](type-aliases/condition.md)
 
 ## Errors
 
@@ -41,7 +41,7 @@ True if Blockbench runs as a native app
 type: _boolean_
 
 ## Namespaces
-```typescript
+```javascript
 declare namespace Blockbench {
 	const platform: 'web' | 'win32' | 'darwin' | 'linux'
 	const version: string
